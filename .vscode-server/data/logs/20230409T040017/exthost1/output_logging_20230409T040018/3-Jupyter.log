@@ -1,0 +1,15 @@
+Visual Studio Code (1.77.0, dev-container, desktop)
+Jupyter Extension Version: 2023.3.1000892223.
+Python Extension Version: 2023.6.0.
+Workspace folder /home/ascenderuser
+info 04:00:18.562: ZMQ loaded via fallback mechanism.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTest'
+info 04:00:18.707: LSP Notebooks experiment is enabled
+warn 04:00:19.121: Failed to get activated env vars for /bin/python in 167ms
+info 04:00:19.129: Process Execution: > /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 04:00:19.172: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+warn 04:00:19.391: Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher' for view = 'jupyter-notebook'
+warn 04:00:19.391: Disposing old controller startUsingPythonInterpreter:'.jvsc74a57bd031f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6./usr/bin/python3./usr/bin/python3.-m#ipykernel_launcher (Interactive)' for view = 'interactive'

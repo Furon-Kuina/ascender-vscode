@@ -1,0 +1,35 @@
+Experiment 'pythonPromptNewToolsExt' is active
+> conda info --json
+> poetry env list --full-path
+cwd: .
+Python interpreter path: /usr/bin/python3
+> /usr/bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+> ./.venv/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+> /bin/python -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+> /bin/python3.8 -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+Extension search path: /home/ascenderuser/.vscode-server/extensions
+> /bin/python ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/linter.py -p pylint /usr/local/py-utils/bin/pylint ./src/ch03/nn-mnist.py
+cwd: .
+##########Linting Output - pylint##########
+
+
+[ERROR 2023-3-9 3:51:6.665]: Linter 'pylint' failed to parse the output '. [SyntaxError: Unexpected end of JSON input
+	at JSON.parse (<anonymous>)
+	at c.parseMessages (/home/ascenderuser/.vscode-server/extensions/ms-python.python-2023.6.0/out/client/extension.js:2:549723)
+	at c.run (/home/ascenderuser/.vscode-server/extensions/ms-python.python-2023.6.0/out/client/extension.js:2:525830)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async c.runLinter (/home/ascenderuser/.vscode-server/extensions/ms-python.python-2023.6.0/out/client/extension.js:2:549238)]
+Python interpreter path: /bin/python
+Extension search path: /home/ascenderuser/.vscode-server/extensions
+> /bin/python ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/linter.py -p pylint /usr/local/py-utils/bin/pylint ./src/ch03/nn-mnist.py
+cwd: .
+##########Linting Output - pylint##########
+
+
+[ERROR 2023-3-9 3:53:42.466]: Linter 'pylint' failed to parse the output '. [SyntaxError: Unexpected end of JSON input
+	at JSON.parse (<anonymous>)
+	at c.parseMessages (/home/ascenderuser/.vscode-server/extensions/ms-python.python-2023.6.0/out/client/extension.js:2:549723)
+	at c.run (/home/ascenderuser/.vscode-server/extensions/ms-python.python-2023.6.0/out/client/extension.js:2:525830)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async c.runLinter (/home/ascenderuser/.vscode-server/extensions/ms-python.python-2023.6.0/out/client/extension.js:2:549238)]

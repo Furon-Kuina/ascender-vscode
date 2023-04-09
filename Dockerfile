@@ -13,15 +13,14 @@ ARG RUN_POETRY_INSTALL_AT_BUILD_TIME="false"
 ENV DEBIAN_FRONTEND="noninteractive" \
     LC_ALL="C.UTF-8" \
     LANG="C.UTF-8" \
-    PYTHONPATH=${APPLICATION_DIRECTORY} \
-    DISPLAY=192.168.10.4:0.0
+    PYTHONPATH=${APPLICATION_DIRECTORY}
 
 # Following is needed to install python 3.7
 RUN apt-get update && apt-get install --no-install-recommends -y software-properties-common 
 RUN add-apt-repository ppa:deadsnakes/ppa
 
 RUN apt-get update 
-RUN apt-get install --no-install-recommends -y git curl make ssh openssh-client python${PYTHON_VERSION} python3-pip python-is-python3 x11-apps
+RUN apt-get install --no-install-recommends -y git curl make ssh openssh-client python${PYTHON_VERSION} python3-pip python-is-python3
 
 RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python${PYTHON_VERSION} 1 \
     && update-alternatives --set python3 /usr/bin/python${PYTHON_VERSION} \
@@ -43,3 +42,4 @@ WORKDIR ${APPLICATION_DIRECTORY}
 COPY --chown=${UID}:${GID} pyproject.toml poetry.lock poetry.toml ./
 RUN test ${RUN_POETRY_INSTALL_AT_BUILD_TIME} = "true" && poetry install || echo "skip to run poetry install."
 RUN test ${RUN_POETRY_INSTALL_AT_BUILD_TIME} = "true" && mv ${APPLICATION_DIRECTORY}/.venv ${HOME}/.venv || echo "skip to move .venv."
+RUN poetry env use /home/ascenderuser/.venv/bin/python3.8
