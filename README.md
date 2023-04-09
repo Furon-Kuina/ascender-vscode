@@ -1,4 +1,11 @@
-# Ascender
+# Ascender-VSCode
+
+This is a modified [Ascender](https://github.com/cvpaperchallenge/Ascender) template 
+specifically customized for development in VSCode with Dev Container. The modification consists mainly
+of adding `.devcontainer` directory for the Dev Container extension.
+
+To start developing with this directory, follow the procedure of the original Ascender template, and 
+let VSCode's Dev Container extension build Docker image using `Dockerfile` located in the project root. 
 
 ![stable](https://img.shields.io/badge/stable-v0.1.3-blue)
 ![python versions](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)
