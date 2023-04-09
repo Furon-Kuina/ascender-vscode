@@ -1,0 +1,12 @@
+[Info  - 3:08:45 PM] (373) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 3:08:45 PM] (373) Server root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 3:08:45 PM] (373) Starting service instance "ascenderuser"
+[Info  - 3:08:45 PM] (373) Auto-indent enabled
+[Info  - 3:08:45 PM] (373) Background analysis(1) root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 3:08:45 PM] (373) Background analysis(1) started
+[Info  - 3:08:45 PM] (373) Setting pythonPath for service "ascenderuser": "/bin/python"
+[Info  - 3:08:45 PM] (373) Loading pyproject.toml file at /home/ascenderuser/pyproject.toml
+[Error - 3:08:45 PM] (373) Pyproject file "/home/ascenderuser/pyproject.toml" is missing "[tool.pyright]" section.
+[Warn  - 3:08:45 PM] (373) stubPath /home/ascenderuser/typings is not a valid directory.
+[Info  - 3:08:45 PM] (373) Assuming Python version 3.8
+[Info  - 3:08:45 PM] (373) Found 9 source files

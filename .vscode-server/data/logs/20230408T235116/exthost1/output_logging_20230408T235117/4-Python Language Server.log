@@ -1,0 +1,56 @@
+[Info  - 11:51:19 PM] (370) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 11:51:19 PM] (370) Server root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 11:51:19 PM] (370) Starting service instance "ascenderuser"
+[Info  - 11:51:19 PM] (370) Auto-indent enabled
+[Info  - 11:51:19 PM] (370) Setting pythonPath for service "ascenderuser": "/bin/python3"
+[Info  - 11:51:19 PM] (370) Loading pyproject.toml file at /home/ascenderuser/pyproject.toml
+[Error - 11:51:19 PM] (370) Pyproject file "/home/ascenderuser/pyproject.toml" is missing "[tool.pyright]" section.
+[Warn  - 11:51:19 PM] (370) stubPath /home/ascenderuser/typings is not a valid directory.
+[Info  - 11:51:19 PM] (370) Assuming Python version 3.8
+[Info  - 11:51:19 PM] (370) Found 9 source files
+[Info  - 11:51:19 PM] (370) Background analysis(1) root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 11:51:19 PM] (370) Background analysis(1) started
+[Info  - 11:51:22 PM] (370) Indexer background runner(2) root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 11:51:22 PM] (370) Indexing(2) started
+[Info  - 11:51:22 PM] (370) scanned(2) 94 files over 1 exec env
+[Info  - 11:51:23 PM] (370) indexed(2) 60 files over 1 exec env
+[Info  - 11:51:23 PM] (370) Indexing finished(2).
+[Info  - 12:36:09 AM] (370) Setting pythonPath for service "ascenderuser": "/bin/python3"
+[Info  - 12:36:09 AM] (370) Loading pyproject.toml file at /home/ascenderuser/pyproject.toml
+[Error - 12:36:09 AM] (370) Pyproject file "/home/ascenderuser/pyproject.toml" is missing "[tool.pyright]" section.
+[Warn  - 12:36:09 AM] (370) stubPath /home/ascenderuser/typings is not a valid directory.
+[Info  - 12:36:09 AM] (370) Assuming Python version 3.8
+[Info  - 12:36:09 AM] (370) Found 9 source files
+[Info  - 12:36:09 AM] (370) Indexer background runner(3) root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 12:36:09 AM] (370) Indexing(3) started
+[Info  - 12:36:09 AM] (370) scanned(3) 94 files over 1 exec env
+[Info  - 12:36:10 AM] (370) indexed(3) 60 files over 1 exec env
+[Info  - 12:36:10 AM] (370) Indexing finished(3).
+[Info  - 12:36:32 AM] (370) Setting pythonPath for service "ascenderuser": "/bin/python3"
+[Info  - 12:36:32 AM] (370) Loading pyproject.toml file at /home/ascenderuser/pyproject.toml
+[Error - 12:36:32 AM] (370) Pyproject file "/home/ascenderuser/pyproject.toml" is missing "[tool.pyright]" section.
+[Warn  - 12:36:32 AM] (370) stubPath /home/ascenderuser/typings is not a valid directory.
+[Info  - 12:36:32 AM] (370) Assuming Python version 3.8
+[Info  - 12:36:32 AM] (370) Found 9 source files
+[Info  - 12:36:32 AM] (370) Indexer background runner(4) root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 12:36:32 AM] (370) Indexing(4) started
+[Info  - 12:36:32 AM] (370) scanned(4) 94 files over 1 exec env
+[Info  - 12:36:33 AM] (370) indexed(4) 60 files over 1 exec env
+[Info  - 12:36:33 AM] (370) Indexing finished(4).
+[Info  - 1:20:51 AM] (370) Setting pythonPath for service "ascenderuser": "/bin/python3"
+[Info  - 1:20:51 AM] (370) Loading pyproject.toml file at /home/ascenderuser/pyproject.toml
+[Error - 1:20:51 AM] (370) Pyproject file "/home/ascenderuser/pyproject.toml" is missing "[tool.pyright]" section.
+[Warn  - 1:20:51 AM] (370) stubPath /home/ascenderuser/typings is not a valid directory.
+[Info  - 1:20:51 AM] (370) Assuming Python version 3.8
+[Info  - 1:20:51 AM] (370) Found 9 source files
+[Info  - 1:20:52 AM] (370) Indexer background runner(5) root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 1:20:52 AM] (370) Indexing(5) started
+[Info  - 1:20:52 AM] (370) scanned(5) 94 files over 1 exec env
+[Info  - 1:20:52 AM] (370) indexed(5) 60 files over 1 exec env
+[Info  - 1:20:52 AM] (370) Indexing finished(5).
+[Info  - 1:29:39 AM] (370) Reloading configuration file at /home/ascenderuser/pyproject.toml
+[Info  - 1:29:39 AM] (370) Setting pythonPath for service "ascenderuser": "/bin/python3"
+[Info  - 1:29:39 AM] (370) Loading pyproject.toml file at /home/ascenderuser/pyproject.toml
+[Error - 1:29:39 AM] (370) Pyproject file "/home/ascenderuser/pyproject.toml" is missing "[tool.pyright]" section.
+[Warn  - 1:29:39 AM] (370) stubPath /home/ascenderuser/typings is not a valid directory.
+[Info  - 1:29:39 AM] (370) Found 9 source files

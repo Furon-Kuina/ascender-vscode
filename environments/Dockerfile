@@ -14,10 +14,11 @@ ENV DEBIAN_FRONTEND="noninteractive" \
     LC_ALL="C.UTF-8" \
     LANG="C.UTF-8" \
     PYTHONPATH=${APPLICATION_DIRECTORY}
-
+    # DISPLAY=172.25.188.239:0
 # Following is needed to install python 3.7
 RUN apt update && apt install --no-install-recommends -y software-properties-common 
-RUN add-apt-repository ppa:deadsnakes/ppa
+RUN add-apt-repository -y ppa:deadsnakes/ppa
+# RUN apt update && apt install -y x11-apps
 
 RUN apt update && apt install --no-install-recommends -y \
     git curl make ssh openssh-client \
@@ -34,13 +35,14 @@ RUN update-alternatives --install /usr/bin/python3 python3 /usr/bin/python${PYTH
 
 # Add user. Without this, following process is executed as admin. 
 RUN groupadd -g ${GID} ${GROUP_NAME} \
-    && useradd -ms /bin/sh -u ${UID} -g ${GID} ${USER_NAME}
+    && useradd -ms /bin/bash -u ${UID} -g ${GID} ${USER_NAME}
 
 USER ${USER_NAME}
 WORKDIR ${APPLICATION_DIRECTORY}
 
 # If ${RUN_POETRY_INSTALL_AT_BUILD_TIME} = "true", install Python package by Poetry and move .venv under ${HOME}.
 # This process is for CI (GitHub Actions). To prevent overwrite by volume of docker compose, .venv is moved under ${HOME}.
-COPY --chown=${UID}:${GID} pyproject.toml poetry.lock poetry.toml .
+
+COPY --chown=${UID}:${GID} pyproject.toml poetry.lock poetry.toml ./
 RUN test ${RUN_POETRY_INSTALL_AT_BUILD_TIME} = "true" && poetry install || echo "skip to run poetry install."
 RUN test ${RUN_POETRY_INSTALL_AT_BUILD_TIME} = "true" && mv ${APPLICATION_DIRECTORY}/.venv ${HOME}/.venv || echo "skip to move .venv."

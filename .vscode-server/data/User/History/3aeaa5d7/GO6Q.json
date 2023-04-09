@@ -1,0 +1,163 @@
+{
+  "latex-workshop.latex.tools": [
+    {
+      "name": "ptex2pdf (uplatex)",
+      "command": "ptex2pdf",
+      "args": [
+        "-l",
+        "-u",
+        "-ot",
+        "-interaction=nonstopmode",
+        "\"-synctex=1 -file-line-error\"",
+        "%DOC%"
+      ]
+    },
+    {
+      "command": "pbibtex",
+      "args": ["-kanji=utf8", "%DOCFILE%"],
+      "name": "pbibtex"
+    },
+    {
+      "command": "bibtex",
+      "args": ["%DOCFILE%"],
+      "name": "bibtex"
+    },
+    {
+      "command": "ptex2pdf",
+      "args": [
+        "-interaction=nonstopmode",
+        "-l",
+        "-ot",
+        "-kanji=utf8 -synctex=1",
+        "%DOC%.tex"
+      ],
+      "name": "ptex2pdf"
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "ptex2pdf (uplatex) *2",
+      "tools": ["ptex2pdf (uplatex)", "ptex2pdf (uplatex)"]
+    },
+    {
+      "name": "ptex2pdf (uplatex) -> pbibtex -> ptex2pdf (uplatex)*2",
+      "tools": [
+        "ptex2pdf (uplatex)",
+        "upbibtex",
+        "ptex2pdf (uplatex)",
+        "ptex2pdf (uplatex)"
+      ]
+    },
+    {
+      "name": "pdflatex -> bibtex -> pdflatex*2",
+      "tools": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+    },
+    {
+      "name": "ptex2pdf -> pbibtex -> ptex2pdf*2",
+      "tools": ["ptex2pdf", "pbibtex", "ptex2pdf", "ptex2pdf"]
+    }
+  ],
+  "latex-workshop.synctex.afterBuild.enabled": true,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.windows": "C:\\Windows\\System32\\wsl.exe (migrated)",
+  "terminal.integrated.profiles.windows": {
+
+    "C:\\Windows\\System32\\wsl.exe (migrated)": {
+      "path": "C:\\Windows\\System32\\wsl.exe",
+      "args": []
+    }
+  },
+  "grammarly.audience": "general",
+  "grammarly.domain": "academic",
+  "grammarly.severity": {
+    "Fragment": 1
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "editor.autoClosingQuotes": "beforeWhitespace",
+  "editor.autoClosingBrackets": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    },
+    "editor.fontFamily": "'源ノ角ゴシック Code JP EL'"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown.extension.print.includeVscodeStylesheets": false,
+  "markdown-image.base.fileNameFormat": "images/${mdname}/${timestamp}",
+  "markdown-image.coding.path": "/images",
+  "pasteImage.defaultName": "/images/${currentFileName}/Y-MM-DD-HH-mm-ss",
+  "pasteImage.path": "${currentFileDir}/images/{currentFileName}",
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "C_Cpp.codeAnalysis.clangTidy.checks.enabled": [
+    "readability-simplify-boolean-expr",
+    "bugprone-infinite-loop"
+  ],
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "c11",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "explorer.confirmDragAndDrop": false,
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "remote.WSL.server.connectThroughLocalhost": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.inlineSuggest.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+  "[python]": {
+    
+    "editor.formatOnType": true
+  },
+  "python.analysis.extraPaths": ["/home/ascenderuser/.venv/lib/python3.8/site-packages/numpy/__init__.py"],
+  "terminal.integrated.defaultProfile.linux": "bash",
+}

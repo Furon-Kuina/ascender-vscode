@@ -1,0 +1,3 @@
+{
+  "python.analysis.extraPaths": ["/home/ascenderuser/.venv/lib/python3.8/site-packages"],
+}

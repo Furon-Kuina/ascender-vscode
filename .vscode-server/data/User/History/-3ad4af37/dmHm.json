@@ -1,0 +1,4 @@
+{
+  "python.analysis.extraPaths": ["/home/ascenderuser/.venv/lib/python3.10/site-packages", 
+  "home/tenma/deep-from-scratch/.venv/lib/python3.10/site-packages"],
+}

@@ -1,0 +1,4 @@
+Experiment 'pythonPromptNewToolsExt' is active
+Starting Pylance language server.
+> /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python3

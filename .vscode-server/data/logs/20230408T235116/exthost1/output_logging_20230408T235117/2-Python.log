@@ -1,0 +1,12 @@
+Experiment 'pythonPromptNewToolsExt' is active
+> /bin/python3.8 -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python3.8
+> /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+Starting Pylance language server.
+Python interpreter path: /bin/python3
+> conda info --json
+> poetry env list --full-path
+cwd: .
+LINTING: Skipping linting from Python extension, since Pylint extension is installed and enabled.
+> ./.venv/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py
+> /bin/python -I ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.6.0/pythonFiles/interpreterInfo.py

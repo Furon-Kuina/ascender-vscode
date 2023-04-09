@@ -1,0 +1,27 @@
+Visual Studio Code (1.77.0, dev-container, desktop)
+Jupyter Extension Version: 2023.3.1000892223.
+Python Extension Version: 2023.6.0.
+Workspace folder /home/ascenderuser
+info 01:30:17.776: ZMQ loaded via fallback mechanism.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTest'
+info 01:30:17.939: LSP Notebooks experiment is enabled
+warn 01:30:18.457: Failed to get activated env vars for /bin/python3 in 222ms
+info 01:30:18.468: Process Execution: > /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python3 -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 01:30:18.510: Process Execution: > /bin/python3 -m pip list
+> /bin/python3 -m pip list
+info 01:30:20.551: Process Execution: > ~/.venv/bin/python -m pip list
+> ~/.venv/bin/python -m pip list
+info 01:30:20.569: Process Execution: > ~/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+> ~/.venv/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+error 01:30:20.576: interpreterPackages getPackageInformation, Class name = Kd, completed in 1122ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/home/ascenderuser/.venv/bin/python","sysPrefix":"/home/ascenderuser/.venv","envPath":{"$mid":1,"fsPath":"/home/ascenderuser/.venv","path":"/home/ascenderuser/.venv","scheme":"file"},"displayPath":{"$mid":1,"fsPath":"/home/ascenderuser/.venv","path":"/home/ascenderuser/.venv","scheme":"file"},"envName":".venv","uri":{"$mid":1,"fsPath":"/home/ascenderuser/.venv/bin/python","external":"file:///home/ascenderuser/.venv/bin/python","path":"/home/ascenderuser/.venv/bin/python","scheme":"file"},"displayName":".venv","envType":"Poetry","isCondaEnvWithoutPython":false,"version":{"major":3,"minor":8,"patch":10,"raw":"3.8.10 (default, Mar 13 2023, 10:26:41) \n[GCC 9.4.0]"}}} [su [Error]: Module 'pip' not installed.
+	at au.execModule (/home/ascenderuser/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:27794)
+	at processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async Kd.getPackageInformation (/home/ascenderuser/.vscode-server/extensions/ms-toolsai.jupyter-2023.3.1000892223/out/extension.node.js:7:19123)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}
+info 01:31:25.811: Shutting down notebooks for 69e31fcd-b15c-4483-922f-24e3e222449a
+info 01:31:25.811: Disposing HostJupyterExecution 1fa00923-3ed0-48ed-9ea6-bbcfbc92f2aa
+info 01:31:25.811: Disposing HostJupyterExecution 1fa00923-3ed0-48ed-9ea6-bbcfbc92f2aa

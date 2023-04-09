@@ -1,0 +1,28 @@
+[Info  - 1:30:20 AM] (397) Pylance language server 2023.4.10 (pyright d7616109) starting
+[Info  - 1:30:20 AM] (397) Server root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 1:30:20 AM] (397) Starting service instance "ascenderuser"
+[Info  - 1:30:20 AM] (397) Auto-indent enabled
+[Info  - 1:30:20 AM] (397) Setting pythonPath for service "ascenderuser": "/home/ascenderuser/.venv/bin/python"
+[Info  - 1:30:20 AM] (397) Loading pyproject.toml file at /home/ascenderuser/pyproject.toml
+[Error - 1:30:20 AM] (397) Pyproject file "/home/ascenderuser/pyproject.toml" is missing "[tool.pyright]" section.
+[Warn  - 1:30:20 AM] (397) stubPath /home/ascenderuser/typings is not a valid directory.
+[Info  - 1:30:20 AM] (397) Assuming Python version 3.8
+[Info  - 1:30:20 AM] (397) Found 9 source files
+[Info  - 1:30:20 AM] (397) Background analysis(1) root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist
+[Info  - 1:30:20 AM] (397) Background analysis(1) started
+[Info  - 1:30:20 AM] (397) Indexer background runner(2) root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 1:30:20 AM] (397) Indexing(2) started
+[Info  - 1:30:20 AM] (397) scanned(2) 9 files over 1 exec env
+[Info  - 1:30:20 AM] (397) indexed(2) 1 files over 1 exec env
+[Info  - 1:30:20 AM] (397) Indexing finished(2).
+[Info  - 1:30:51 AM] (397) Setting pythonPath for service "ascenderuser": "/home/ascenderuser/.venv/bin/python"
+[Info  - 1:30:51 AM] (397) Loading pyproject.toml file at /home/ascenderuser/pyproject.toml
+[Error - 1:30:51 AM] (397) Pyproject file "/home/ascenderuser/pyproject.toml" is missing "[tool.pyright]" section.
+[Warn  - 1:30:51 AM] (397) stubPath /home/ascenderuser/typings is not a valid directory.
+[Info  - 1:30:51 AM] (397) Assuming Python version 3.8
+[Info  - 1:30:51 AM] (397) Found 9 source files
+[Info  - 1:30:51 AM] (397) Indexer background runner(3) root directory: /home/ascenderuser/.vscode-server/extensions/ms-python.vscode-pylance-2023.4.10/dist (index)
+[Info  - 1:30:51 AM] (397) Indexing(3) started
+[Info  - 1:30:52 AM] (397) scanned(3) 42 files over 1 exec env
+[Info  - 1:30:52 AM] (397) indexed(3) 23 files over 1 exec env
+[Info  - 1:30:52 AM] (397) Indexing finished(3).

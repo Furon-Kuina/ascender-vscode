@@ -1,0 +1,13 @@
+2023-04-09 03:03:50.559 [info] 
+
+
+
+
+2023-04-09 03:03:50.626 [info] Extension host agent started.
+2023-04-09 03:03:50.648 [debug] No uninstalled extensions found.
+2023-04-09 03:03:50.728 [info] [127.0.0.1][f8ad5f95][ManagementConnection] New connection established.
+2023-04-09 03:03:50.743 [info] Log level changed to info
+2023-04-09 03:03:51.221 [info] [127.0.0.1][a54ce2f8][ExtensionHostConnection] New connection established.
+2023-04-09 03:03:51.224 [info] [127.0.0.1][a54ce2f8][ExtensionHostConnection] <282> Launched Extension Host Process.
+2023-04-09 03:05:31.422 [info] [127.0.0.1][f8ad5f95][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-09 03:05:31.460 [info] [127.0.0.1][a54ce2f8][ExtensionHostConnection] <282> Extension Host Process exited with code: 0, signal: null.

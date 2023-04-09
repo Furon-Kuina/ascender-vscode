@@ -1,0 +1,155 @@
+2023-04-08 16:24:04.222 [info] Name: Pylint
+2023-04-08 16:24:04.222 [info] Module: pylint
+2023-04-08 16:24:04.222 [info] Python extension loading
+2023-04-08 16:24:04.222 [info] Waiting for interpreter from python extension.
+2023-04-08 16:24:04.222 [info] Python extension loaded
+2023-04-08 16:24:04.222 [info] Using legacy Pylint path from `python.linting.pylintPath`
+2023-04-08 16:24:04.222 [info] Using cwd from `python.analysis.extraPaths`.
+2023-04-08 16:24:04.222 [info] Using legacy Pylint path from `python.linting.pylintPath`
+2023-04-08 16:24:04.222 [info] Using cwd from `python.analysis.extraPaths`.
+2023-04-08 16:24:04.222 [info] Server run command: /bin/python3.8 /home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py
+2023-04-08 16:24:04.222 [info] Server: Start requested.
+2023-04-08 16:24:04.429 [info] CWD Server: /home/ascenderuser
+2023-04-08 16:24:04.430 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/ascenderuser",
+        "workspace": "file:///home/ascenderuser",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [
+            "/usr/local/py-utils/bin/pylint"
+        ],
+        "interpreter": [
+            "/bin/python3.8"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": [
+            "/home/challenger/ascender/.venv/lib/python3.8/site-packages"
+        ]
+    }
+]
+
+2023-04-08 16:24:04.430 [info] Global settings:
+{
+    "cwd": "/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63",
+    "workspace": "/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2023-04-08 16:24:04.430 [info] sys.path used to run Server:
+   /home/ascenderuser
+   /home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/libs
+   /home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool
+   /home/ascenderuser/ascender
+   /usr/lib/python38.zip
+   /usr/lib/python3.8
+   /usr/lib/python3.8/lib-dynload
+   /usr/local/lib/python3.8/dist-packages
+   /usr/lib/python3/dist-packages
+2023-04-08 16:24:04.431 [info] /usr/local/py-utils/bin/pylint --version
+2023-04-08 16:24:04.431 [info] CWD Server: /home/ascenderuser
+2023-04-08 16:24:04.433 [info] Error while detecting pylint version:
+Traceback (most recent call last):
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 387, in _log_version_info
+    result = _run_tool(["--version"], settings)
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 664, in _run_tool
+    result = utils.run_path(argv=argv, use_stdin=True, cwd=cwd, env=env)
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_utils.py", line 174, in run_path
+    with subprocess.Popen(
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/py-utils/bin/pylint'
+
+2023-04-08 16:24:04.440 [info] [Trace - 4:24:04 PM] Received notification 'window/logMessage'.
+2023-04-08 16:24:04.440 [info] /usr/local/py-utils/bin/pylint --reports=n --output-format=json --from-stdin /home/ascenderuser/src/common/__init__.py
+2023-04-08 16:24:04.440 [info] [Trace - 4:24:04 PM] Received notification 'window/logMessage'.
+2023-04-08 16:24:04.440 [info] CWD Server: /home/ascenderuser
+2023-04-08 16:24:04.442 [info] [Trace - 4:24:04 PM] Received notification 'window/logMessage'.
+2023-04-08 16:24:04.442 [info] [Error - 4:24:04 PM] Linting failed with error:
+Traceback (most recent call last):
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 107, in _linting_helper
+    result = _run_tool_on_document(document, use_stdin=True, extra_args=extra_args)
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 579, in _run_tool_on_document
+    result = utils.run_path(
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_utils.py", line 174, in run_path
+    with subprocess.Popen(
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/py-utils/bin/pylint'
+
+2023-04-08 16:24:04.443 [info] [Trace - 4:24:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-04-08 16:24:04.914 [info] [Trace - 4:24:04 PM] Sending notification 'textDocument/didClose'.
+2023-04-08 16:24:04.915 [info] [Trace - 4:24:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-04-08 16:24:04.947 [info] [Trace - 4:24:04 PM] Sending notification 'textDocument/didOpen'.
+2023-04-08 16:24:04.947 [info] [Trace - 4:24:04 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-04-08 16:24:04.951 [info] [Trace - 4:24:04 PM] Received notification 'window/logMessage'.
+2023-04-08 16:24:04.951 [info] /usr/local/py-utils/bin/pylint --reports=n --output-format=json --from-stdin /home/ascenderuser/src/ch03/nn-mnist.py
+2023-04-08 16:24:04.951 [info] [Trace - 4:24:04 PM] Received notification 'window/logMessage'.
+2023-04-08 16:24:04.951 [info] CWD Server: /home/ascenderuser
+2023-04-08 16:24:04.951 [info] [Trace - 4:24:04 PM] Received notification 'window/logMessage'.
+2023-04-08 16:24:04.952 [info] [Error - 4:24:04 PM] Linting failed with error:
+Traceback (most recent call last):
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 107, in _linting_helper
+    result = _run_tool_on_document(document, use_stdin=True, extra_args=extra_args)
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 579, in _run_tool_on_document
+    result = utils.run_path(
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_utils.py", line 174, in run_path
+    with subprocess.Popen(
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/py-utils/bin/pylint'
+
+2023-04-08 16:24:04.952 [info] [Trace - 4:24:04 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-04-08 16:24:04.954 [info] [Trace - 4:24:04 PM] Received response 'textDocument/codeAction - (1)' in 7ms.
+2023-04-08 16:24:05.183 [info] [Trace - 4:24:05 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-04-08 16:24:05.184 [info] [Trace - 4:24:05 PM] Received response 'textDocument/codeAction - (2)' in 1ms.
+2023-04-08 16:24:05.782 [info] [Trace - 4:24:05 PM] Sending request 'textDocument/codeAction - (3)'.
+2023-04-08 16:24:05.783 [info] [Trace - 4:24:05 PM] Received response 'textDocument/codeAction - (3)' in 2ms.
+2023-04-08 16:24:09.598 [info] [Trace - 4:24:09 PM] Sending request 'textDocument/codeAction - (4)'.
+2023-04-08 16:24:09.600 [info] [Trace - 4:24:09 PM] Received response 'textDocument/codeAction - (4)' in 2ms.
+2023-04-08 16:25:51.487 [info] [Trace - 4:25:51 PM] Sending request 'textDocument/codeAction - (5)'.
+2023-04-08 16:25:51.490 [info] [Trace - 4:25:51 PM] Received response 'textDocument/codeAction - (5)' in 3ms.
+2023-04-08 16:28:22.458 [info] /usr/local/py-utils/bin/pylint --reports=n --output-format=json --from-stdin /home/ascenderuser/src/ch03/nn-mnist.py
+2023-04-08 16:28:22.458 [info] CWD Server: /home/ascenderuser
+2023-04-08 16:28:22.458 [info] [Error - 4:28:22 PM] Linting failed with error:
+Traceback (most recent call last):
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 107, in _linting_helper
+    result = _run_tool_on_document(document, use_stdin=True, extra_args=extra_args)
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 579, in _run_tool_on_document
+    result = utils.run_path(
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_utils.py", line 174, in run_path
+    with subprocess.Popen(
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/py-utils/bin/pylint'
+

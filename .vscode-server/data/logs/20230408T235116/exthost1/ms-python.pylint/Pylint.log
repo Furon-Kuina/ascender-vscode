@@ -1,0 +1,117 @@
+2023-04-08 23:51:22.873 [info] Name: Pylint
+2023-04-08 23:51:22.873 [info] Module: pylint
+2023-04-08 23:51:22.873 [info] Python extension loading
+2023-04-08 23:51:22.873 [info] Waiting for interpreter from python extension.
+2023-04-08 23:51:22.873 [info] Python extension loaded
+2023-04-08 23:51:22.873 [info] Using legacy Pylint path from `python.linting.pylintPath`
+2023-04-08 23:51:22.873 [info] Using cwd from `python.analysis.extraPaths`.
+2023-04-08 23:51:22.873 [info] Using legacy Pylint path from `python.linting.pylintPath`
+2023-04-08 23:51:22.873 [info] Using cwd from `python.analysis.extraPaths`.
+2023-04-08 23:51:22.873 [info] Server run command: /bin/python3 /home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py
+2023-04-08 23:51:22.873 [info] Server: Start requested.
+2023-04-08 23:51:23.202 [info] CWD Server: /home/ascenderuser
+2023-04-08 23:51:23.204 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/home/ascenderuser",
+        "workspace": "file:///home/ascenderuser",
+        "args": [],
+        "severity": {
+            "convention": "Information",
+            "error": "Error",
+            "fatal": "Error",
+            "refactor": "Hint",
+            "warning": "Warning",
+            "info": "Information"
+        },
+        "path": [
+            "/usr/local/py-utils/bin/pylint"
+        ],
+        "interpreter": [
+            "/bin/python3"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off",
+        "extraPaths": [
+            "/home/ascenderuser/.venv/lib/python3.8/site-packages"
+        ]
+    }
+]
+
+2023-04-08 23:51:23.206 [info] Global settings:
+{
+    "cwd": "/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63",
+    "workspace": "/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63",
+    "args": [],
+    "severity": {
+        "convention": "Information",
+        "error": "Error",
+        "fatal": "Error",
+        "refactor": "Hint",
+        "warning": "Warning",
+        "info": "Information"
+    },
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off",
+    "extraPaths": []
+}
+
+2023-04-08 23:51:23.206 [info] sys.path used to run Server:
+   /home/ascenderuser/.venv/lib/python3.8/site-packages
+   /home/ascenderuser
+   /home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/libs
+   /home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool
+   /home/ascenderuser/ascender
+   /usr/lib/python38.zip
+   /usr/lib/python3.8
+   /usr/lib/python3.8/lib-dynload
+   /usr/local/lib/python3.8/dist-packages
+   /usr/lib/python3/dist-packages
+2023-04-08 23:51:23.207 [info] /usr/local/py-utils/bin/pylint --version
+2023-04-08 23:51:23.208 [info] CWD Server: /home/ascenderuser
+2023-04-08 23:51:23.209 [info] Error while detecting pylint version:
+Traceback (most recent call last):
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 387, in _log_version_info
+    result = _run_tool(["--version"], settings)
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 664, in _run_tool
+    result = utils.run_path(argv=argv, use_stdin=True, cwd=cwd, env=env)
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_utils.py", line 174, in run_path
+    with subprocess.Popen(
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/py-utils/bin/pylint'
+
+2023-04-08 23:51:23.217 [info] [Trace - 11:51:23 PM] Received notification 'window/logMessage'.
+2023-04-08 23:51:23.217 [info] /usr/local/py-utils/bin/pylint --reports=n --output-format=json --from-stdin /home/ascenderuser/src/ch03/nn-mnist.py
+2023-04-08 23:51:23.217 [info] [Trace - 11:51:23 PM] Received notification 'window/logMessage'.
+2023-04-08 23:51:23.217 [info] CWD Server: /home/ascenderuser
+2023-04-08 23:51:23.219 [info] [Trace - 11:51:23 PM] Received notification 'window/logMessage'.
+2023-04-08 23:51:23.219 [info] [Error - 11:51:23 PM] Linting failed with error:
+Traceback (most recent call last):
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 107, in _linting_helper
+    result = _run_tool_on_document(document, use_stdin=True, extra_args=extra_args)
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_server.py", line 579, in _run_tool_on_document
+    result = utils.run_path(
+  File "/home/ascenderuser/.vscode-server/extensions/ms-python.pylint-2023.4.0/bundled/tool/lsp_utils.py", line 174, in run_path
+    with subprocess.Popen(
+  File "/usr/lib/python3.8/subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.8/subprocess.py", line 1704, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/py-utils/bin/pylint'
+
+2023-04-08 23:51:23.223 [info] [Trace - 11:51:23 PM] Received notification 'textDocument/publishDiagnostics'.
+2023-04-08 23:51:23.225 [info] [Trace - 11:51:23 PM] Sending request 'textDocument/codeAction - (1)'.
+2023-04-08 23:51:23.234 [info] [Trace - 11:51:23 PM] Received response 'textDocument/codeAction - (1)' in 9ms.
+2023-04-08 23:51:23.545 [info] [Trace - 11:51:23 PM] Sending request 'textDocument/codeAction - (2)'.
+2023-04-08 23:51:23.547 [info] [Trace - 11:51:23 PM] Received response 'textDocument/codeAction - (2)' in 2ms.
+2023-04-08 23:51:24.816 [info] [Trace - 11:51:24 PM] Sending request 'textDocument/codeAction - (3)'.
+2023-04-08 23:51:24.817 [info] [Trace - 11:51:24 PM] Received response 'textDocument/codeAction - (3)' in 1ms.
+2023-04-08 23:59:21.108 [info] [Trace - 11:59:21 PM] Sending request 'textDocument/codeAction - (4)'.
+2023-04-08 23:59:21.137 [info] [Trace - 11:59:21 PM] Received response 'textDocument/codeAction - (4)' in 28ms.
+2023-04-09 00:21:13.823 [info] [Trace - 12:21:13 AM] Sending request 'textDocument/codeAction - (5)'.
+2023-04-09 00:21:13.854 [info] [Trace - 12:21:13 AM] Received response 'textDocument/codeAction - (5)' in 31ms.

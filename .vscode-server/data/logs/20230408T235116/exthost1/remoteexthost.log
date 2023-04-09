@@ -1,0 +1,740 @@
+2023-04-08 23:51:17.228 [info] Extension host with pid 265 started
+2023-04-08 23:51:17.235 [info] Lock '/home/ascenderuser/.vscode-server/data/User/workspaceStorage/b2cf6719777e73c29148595f67d97134/vscode.lock': Lock acquired.
+2023-04-08 23:51:17.254 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-08 23:51:17.254 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-08 23:51:17.254 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-04-08 23:51:17.254 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-08 23:51:17.454 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-08 23:51:17.457 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:pyproject.toml'
+2023-04-08 23:51:17.596 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-08 23:51:17.596 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-08 23:51:17.766 [info] Eager extensions activated
+2023-04-08 23:51:17.766 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-08 23:51:17.767 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-08 23:51:17.972 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9781
+2023-04-08 23:51:18.577 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9781
+2023-04-08 23:51:18.589 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'api', root cause: ms-python.python
+2023-04-08 23:51:21.640 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9782
+2023-04-08 23:51:22.194 [info] ExtensionService#_doActivateExtension ms-python.pylint, startup: false, activationEvent: 'onLanguage:python'
+2023-04-08 23:51:22.194 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-08 23:51:22.754 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-08 23:51:26.729 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:51:31.817 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:51:40.122 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:51:45.072 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-04-08 23:51:45.206 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:51:50.294 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:51:55.383 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:52:17.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:53:30.043 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:54:07.073 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:54:23.149 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:54:28.235 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:54:33.318 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:54:38.407 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:54:44.022 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:56:22.516 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:56:27.597 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:56:52.322 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:56:59.825 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:57:04.913 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:57:09.998 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:57:15.089 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:58:43.453 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:59:01.306 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:59:06.390 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:59:20.581 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:59:25.668 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:59:30.757 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:59:35.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:59:40.933 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-08 23:59:46.017 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:01.208 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:06.300 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:11.380 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:16.465 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:23.575 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:28.664 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:33.753 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:38.838 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:43.929 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:01:49.015 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:05:09.366 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:05:14.454 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:05:42.401 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:21:13.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:21:18.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:28:07.160 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:28:12.252 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:28:17.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:28:22.427 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:28:27.514 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 00:28:48.922 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 01:29:54.013 [warning] [Decorations] CAPPING events from decorations provider vscode.git 9784
+2023-04-09 01:29:54.617 [info] Extension host terminating: received terminate message from renderer
+2023-04-09 01:29:54.618 [info] Lock '/home/ascenderuser/.vscode-server/data/User/workspaceStorage/b2cf6719777e73c29148595f67d97134/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-04-09 01:29:54.638 [error] Canceled: Canceled
+	at new l (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:99:105190)
+	at c.O (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:109:11692)
+	at Proxy.G.<computed>.Q.charCodeAt.G.<computed> (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:109:8967)
+	at m.g (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:99:125211)
+	at m.executeCommand (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at L.registerCommand.description (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:99:123880)
+	at m.h (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:99:125797)
+	at m.g (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:99:124687)
+	at m.executeCommand (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:99:124587)
+	at Object.executeCommand (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:115:23801)
+	at D (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/main.js:2:1467156)
+	at E.invoke (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at Object.m [as dispose] (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/main.js:2:1481885)
+	at /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/main.js:2:1485952
+	at Array.forEach (<anonymous>)
+	at g.dispose (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/main.js:2:1485938)
+	at t.<anonymous> (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:97:12398)
+	at t.dispose (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at t.<anonymous> (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/extensions/git/dist/main.js:2:1469286)
+	at t.dispose (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:97:12533)
+	at I (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:10:12084)
+	at E.Y (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:111:11147)
+	at /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:111:9131
+	at Array.map (<anonymous>)
+	at E.R (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:111:9118)
+	at E.terminate (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:111:9389)
+	at d.terminate (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:115:1544)
+	at p (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:125:18690)
+	at /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:125:16600
+	at E.invoke (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at p.fire (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:14916)
+	at s.E (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:18982)
+	at /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:16970
+	at E.invoke (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at d.acceptChunk (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:12647)
+	at /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:11934
+	at E.invoke (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:2121)
+	at n.fire (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:63:1729)
+	at n.u (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:28919)
+	at n.acceptFrame (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:28725)
+	at E.l (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:27312)
+	at /vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:24635
+	at Socket.s (/vscode/vscode-server/bin/linux-x64/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/out/vs/workbench/api/node/extensionHostProcess.js:72:22469)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-09 01:29:54.664 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.664 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.664 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.665 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.666 [error] Error: Cannot call write after a stream was destroyed
+	at new NodeError (node:internal/errors:371:5)
+	at errorBuffer (node:internal/streams/writable:517:14)
+	at onwriteError (node:internal/streams/writable:420:3)
+	at processTicksAndRejections (node:internal/process/task_queues:85:21)
+	at runNextTicks (node:internal/process/task_queues:65:3)
+	at listOnTimeout (node:internal/timers:528:9)
+	at processTimers (node:internal/timers:502:7)
+2023-04-09 01:29:54.683 [info] Extension host with pid 265 exiting with code 0
